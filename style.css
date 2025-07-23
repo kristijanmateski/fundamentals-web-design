@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgreen;
+    font-family: sans-serif;
+}
+.menu{
+    height: 80px;
+    background-color: white;
+}
+.menu .heading h1{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 15px;
+    height: 40px;
+}
+.nav ul {
+    float: right;
+    margin-right: 100px;
+    margin-top: -25px;
+}
+
+.nav ul  li{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+.nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkblue;
+    padding: 10px;
+    width: 100px;
+}
+.nav ul li a:hover{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+.active:nth-child(1){
+    background-color: darkblue;
+    border-radius: 5px;
+    color: white;
+}
+table tr td{
+    border: 1px solid black;
+    border-collapse: separate;
+}
+.content{
+    height: 500px;
+    background-color: lightgreen;
+}
+.content .heading{
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.part{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.form{
+    padding: 10px;
+    flex: 1;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.button{
+    color: white;
+    width: 200px;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+.border, textarea, select{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+}
+textarea{
+    height: 150px;
+}
+.content .web{
+    width: 1400px;
+    height: 600px;
+    margin-left: 50px;
+}
+.content .mapa{
+    width: 1400px;
+    height: 600px;
+    margin-left: 50px;
+}
+.table{
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 49px;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+    justify-content: center;
+}
+.table p{
+    text-align: center;
+}
+.sign{
+    color: blue;
+}
+
